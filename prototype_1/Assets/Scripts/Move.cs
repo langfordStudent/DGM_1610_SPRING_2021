@@ -5,10 +5,10 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
   // Access Modifier, Data Type, Name
-  public float speed = 30.0f;
-  public float turnspeed = 35.0f;
-  public float hInput;
-  public float fInput;
+  private float speed = 30.0f;
+  private float turnspeed = 35.0f;
+  private float hInput;
+  private float fInput;
     // Update is called once per frame
     void Update()
     {
